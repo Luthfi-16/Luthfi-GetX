@@ -7,6 +7,8 @@ abstract class Routes {
   static const COUNTER = _Paths.COUNTER;
   static const FORMULIR = _Paths.FORMULIR;
   static const TOKO = _Paths.TOKO;
+  static const POSTS = _Paths.POSTS;
+  static const ALBUM = _Paths.ALBUM;
 }
 
 abstract class _Paths {
@@ -15,4 +17,6 @@ abstract class _Paths {
   static const COUNTER = '/counter';
   static const FORMULIR = '/formulir';
   static const TOKO = '/toko';
+  static const POSTS = '/posts';
+  static const ALBUM = '/album';
 }

@@ -87,7 +87,7 @@ class TokoView extends GetView<TokoController> {
                 },
                 child: const Text(
                   "Hitung & Lihat Hasil",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
                 ),
               ),
             )

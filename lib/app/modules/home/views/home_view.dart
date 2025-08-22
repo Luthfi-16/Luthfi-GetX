@@ -10,10 +10,12 @@ class HomeView extends GetView<HomeController> {
     final menuItems = [
       {"title": "Counter", "icon": Icons.countertops, "route": "/counter"},
       {"title": "Formulir", "icon": Icons.edit_document, "route": "/formulir"},
+      {"title": "Toko", "icon": Icons.store, "route": "/toko"},
+      {"title": "Posts", "icon": Icons.article, "route": "/posts"},
       {
-        "title": "Toko",
-        "icon": Icons.store,
-        "route": "/toko"
+        "title": "Albums",
+        "icon": Icons.photo_album,
+        "route": "/album"
       }, // 🔥 baru ditambah
     ];
 
